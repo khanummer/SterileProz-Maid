@@ -1,0 +1,15 @@
+.Header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.Header-Left {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.Header-Right {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
