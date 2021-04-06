@@ -14,10 +14,16 @@ class Home extends Component {
                     <div>Contact Us</div>
                 </div>
 
-                <div>
-                    
+                <div className="Home-Bubbles">
+                    <div>Home Cleaning</div>
+                    <div>Business Cleaing</div>
+                    <div>Party Clean-Up</div>
+                    <div>Moving Clean-Up</div>
                 </div>
-
+                
+                <div>Your Safety is our Priority - Founded By a Doctor!</div>
+                <div>VIDEO</div>
+                
             </div>
 
         )
