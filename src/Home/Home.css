@@ -1,0 +1,60 @@
+.Home {
+    text-align: center;
+}
+
+.Home-NavBar { 
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+}
+
+.Home-NavBar-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.Home-NavBar-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.Home-NavBar-3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.Home-NavBar-4 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.Home-NavBar-5 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.Home-Bubbles { 
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+}
+
+.Home-Bubbles-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.Home-Bubbles-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.Home-Bubbles-3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.Home-Bubbles-4 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
