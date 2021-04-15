@@ -6,6 +6,7 @@ class Home extends Component {
     render() {
         return(
             <div className="Home">
+
                 <div className="Home-NavBar">
                     <div className="Home-NavBar-1">Home</div>
                     <div className="Home-NavBar-2">About Us</div>
@@ -24,8 +25,16 @@ class Home extends Component {
                 <div>Your Safety is our Priority - Founded By a Doctor!</div>
                 <div>VIDEO</div>
 
-                <div>Why Choose Us?</div>
-                <div></div>
+                <div className="WCU">
+                    <div className="WCU-1">Why Choose Us?</div>
+                    <div className="WCU-2">20 years of experience</div> 
+                    <div className="WCU-3">Free Covid-19 Fogger Sanitation</div>
+                    <div className="WCU-4">24-hour services</div>
+                    <div className="WCU-5">Contract or No Contract! (Contractors save 10-15%)</div>
+                    <div className="WCU-6">All Equipment Provided</div>
+                    <div className="WCU-7">Fully Insured</div>
+                </div>
+
             </div>
 
         )
