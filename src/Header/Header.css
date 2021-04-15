@@ -34,6 +34,7 @@
     grid-row-end: 1;
     justify-self: flex-end;
     padding-right: 2rem;
+    justify-content: flex-end;
 }
 
 .Header-4 {
@@ -60,4 +61,12 @@
     height: auto;
     /* height: 100%;
     padding-left: 20rem; */
+}
+
+.fb, .ig, .twit  {
+    height: auto;
+    max-width: 10%;
+    padding: 10px;
+    justify-self: flex-end;
+    justify-content: flex-end;
 }
